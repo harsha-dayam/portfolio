@@ -1,0 +1,93 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+}
+
+h1{
+	font-weight: lighter;
+	color:#2d3c49;
+	font-size:60px ;
+}
+
+h2{
+	color:#7d97ad;
+	font-weight: 300;
+	letter-spacing: 1px;
+	padding-left: 8px;
+}
+
+h3{
+	color:#2d3c49;
+	font-size: 40px;
+}
+
+h4{
+	color:#2d3c49;
+	font-size:20px ;
+}
+
+hr{
+	font-weight: bold;
+	color:#7d97ad;
+	background-color: #7d97ad;
+	height: 3px;
+}
+
+p{
+	color:#2d3c49;
+}
+
+.logo{
+	width: 70px;
+	height: 110px;
+}
+@media screen and (max-width:470px){	
+	img{
+		width:85%;
+	}
+	h3{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width:631px){
+	h1{
+		font-size: 36px;
+	}
+	h4{
+		font-size: 14px;
+	}
+}
+
+
+@media screen and (max-width:767px){	
+	img{
+		width:75%;
+	}
+	h2{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:991px){
+	.carousel{
+		max-width: 720px;
+		overflow: hidden;
+	}
+	.carousel-inner{
+		width: 720px;
+		left: 50%;
+		margin-left: -360px;
+	}
+	
+}
+
+@media (min-width:768px) and (max-width: 991px){
+	h3{
+		font-size: 32px;
+	}
+	
+}
