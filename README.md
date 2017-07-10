@@ -5,7 +5,7 @@ Portfolio
 - 'npm' package 'grunt-respimg' use Image Magick and ImageOptim.
 - To download ImageMagick follow link: https://www.imagemagick.org/script/download.php. If the link is outdated or doesnt work use 'homebrew' to install ImageMagick. Type `brew install imagemagick` in command line.
 - To install IMageOptim follow link : https://imageoptim.com/mac 
-- Compressed and optimized images at certain breakpoints.
+- Compressed and optimized images at various breakpoints.
 - Grunt Plugins used : "grunt": "^1.0.1",
                        "grunt-bootlint": "^0.10.2",
                        "grunt-contrib-clean": "^1.1.0",
